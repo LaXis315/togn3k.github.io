@@ -12,6 +12,7 @@
 			--color4: orange;
 			--color5: orange;
 			--cend: 7;
+			--credits = 4.5s;
 		}
 		
 		* {
@@ -23,7 +24,7 @@
 		}
 		
 		body {
-			background-color : #000000;
+			background-color : #020100;
 			color: #FFF;
 		}
 		
@@ -314,7 +315,7 @@
 		@keyframes titles{
 			15% {opacity:0;}
 			30% {opacity:0;}
-			80% {opacity:1;}
+			50% {opacity:0.5;}
 			99.999%{opacity:1;}
 			100%{opacity:1;}
 		}
@@ -327,83 +328,83 @@
 		
 		.fade1{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:0s;
+			animation-duration: var(--credits);
+			animation-delay:0.5s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		
 		.fade2{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:3s;
+			animation-duration: var(--credits);
+			animation-delay:1s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		
 		.fade3{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:6s;
+			animation-duration: var(--credits);
+			animation-delay:2s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		
 		.fade4{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:9s;
+			animation-duration: var(--credits);
+			animation-delay:3s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		
 		.fade5{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:12s;
+			animation-duration: var(--credits);
+			animation-delay:4s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		
 		.fade6{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:15s;
+			animation-duration: var(--credits);
+			animation-delay:5s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		.fade7{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:18s;
+			animation-duration: var(--credits);
+			animation-delay:6s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		.fade8{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:21s;
+			animation-duration: var(--credits);
+			animation-delay:7s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		.fade9{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:24s;
+			animation-duration: var(--credits);
+			animation-delay:8s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		.fade10{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:27s;
+			animation-duration: var(--credits);
+			animation-delay:9s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
 		.fade11{
 			animation-name: titles;
-			animation-duration: 10s;
-			animation-delay:30s;
+			animation-duration: var(--credits);
+			animation-delay:10s;
 			animation-iteration-count: 1;
 			animation-fill-mode:forwards
 		}
@@ -574,7 +575,7 @@
 					<td><div>Se si esce dal sogno dopo aver aperto il sarcofago (l’unico modo è usare le password segrete trovate tramite bruteforce per spegnere la luce e passare il ponte che altrimenti richiede la nostra morte) è possibile trovare dentro il sarcofago il cadavere del prigioniero.</div></td><td><img src=Assets/prisoner_corpse.png></td>
 				</tr>
 				<tr>
-					<td colspan=2><div>Seppur non presente tra le impostazioni, i creatori volevano che, dopo aver ricaricato il jet-pack in una delle bombole degli elk, la fiamma del jet-pack diventasse del colore dei loro falò (blu-verde). Questa feature è stata rimossa per evitare confusione nei giocatori. Attualmente è sbloccabile solo tramite cheat o mod.<br><a href="Assets/green_jet.png" class="n">Foto</a></div></td>
+					<td colspan=2><div>Seppur non presente tra le impostazioni, i creatori volevano che, dopo aver ricaricato il jet-pack in una delle bombole degli elk, la fiamma del jet-pack diventasse del colore dei loro falò (blu-verde). Questa feature è stata rimossa per evitare confusione nei giocatori. Attualmente è sbloccabile solo tramite cheat o mod.<br><a href="Assets/green_jet.png" target="_blank" rel="noopener noreferrer" class="n">Foto</a></div></td>
 				</tr>
 				<tr>
 					<td><div>Nella terza area del sogno, nel reel che viene guardato di nascosto da uno degli elk è presente, seppur coperto, l’unica immagine di una delle razze del pianeta dove vivevano gli elk.<br><br> L’ombra dell Owlk sfortunatamente copre quella parte di slide contenente questi animali simili a cani con orecchie di coniglio.</div></td><td><img src=Assets/dograbbit.png class="scale50"></td>
@@ -616,10 +617,10 @@
 			</div>
 			<div class="curios">
 				<div style="border-style:none" class="title">2) Curiosità</div>
-				<div>La nave è programmata per evitare la distruzione per via della supernova. Un grafico, che mostra in tempo reale<br><a href="Assets/escape.mp4" class="n">l’ apertura delle vele solari</a><br>assieme alla distanza e stadio di vita del sole, è presente nella cabina di pilotaggio (accessibile da sopra la diga o tramite l’ ascensore nascosto nella zona di attracco navicelle).<br>Il grafico è mostrato tramite un proiettore sul soffitto (è possibile oscurarlo con il personaggio o col sondino).</div>
+				<div>La nave è programmata per evitare la distruzione per via della supernova. Un grafico, che mostra in tempo reale<br><a href="Assets/escape.mp4" target="_blank" rel="noopener noreferrer" class="n">l’ apertura delle vele solari</a><br>assieme alla distanza e stadio di vita del sole, è presente nella cabina di pilotaggio (accessibile da sopra la diga o tramite l’ ascensore nascosto nella zona di attracco navicelle).<br>Il grafico è mostrato tramite un proiettore sul soffitto (è possibile oscurarlo con il personaggio o col sondino).</div>
 				<div style="border-style:none"><img src="Assets/img1.png" style="width:15vw; height:auto;"><img src="Assets/img2.png" style="width:15vw; height:auto;"><img src="Assets/img3.png" style="width:15vw; height:auto;"><img src="Assets/img4.png" style="width:15vw; height:auto;"><img src="Assets/img5.png" style="width:15vw; height:auto;"></div>
 				<div>La Rottura della Diga è probabilmente dovuta sia alla sua età (calcolando che gli elk sono arrivati nel sistema prima dei Nomai, questo vuol dire che la diga è antichissima) che all’ improvvisa partenza della nave per via dell’ imminente nova della stella. La diga e praticamente tutto il resto della nave è fatto in legno e metallo.</div>
-				<div>Le gigantesche finestre della nave sono in realtà degli enormi schermi con tanto di pixel RGB. Avvicinandosi a questi, infatti, è possibile notare un pattern di Rosso, Verde e Blu; inoltre, una volta che la nave inizia la sua fuga, per qualche istante questi schermi si spengono per un calo di corrente. Infine, la fonte dell’ immagine, visto che l’esterno della nave è completamente opaco è quasi sicuramente la finestra della cabina di pilotaggio.<br><a href="Assets/sondino.mp4" class="n"> Un video dove viene mostrato un ulteriore esempio.</a></div>
+				<div>Le gigantesche finestre della nave sono in realtà degli enormi schermi con tanto di pixel RGB. Avvicinandosi a questi, infatti, è possibile notare un pattern di Rosso, Verde e Blu; inoltre, una volta che la nave inizia la sua fuga, per qualche istante questi schermi si spengono per un calo di corrente. Infine, la fonte dell’ immagine, visto che l’esterno della nave è completamente opaco è quasi sicuramente la finestra della cabina di pilotaggio.<br><a href="Assets/sondino.mp4" target="_blank" rel="noopener noreferrer" class="n"> Un video dove viene mostrato un ulteriore esempio.</a></div>
 				<div>Tra i cadaveri degli elk non si trovano mai bambini, eppure sono molteplici le raffigurazioni di elk di giovane età (e forse sesso?).</div>
 				<div style="border-style:none"><img src="Assets/img6.png" style="width:10vw; height:auto;"><img src="Assets/img7.png" style="width:10vw; height:auto;"><img src="Assets/img8.png" style="width:10vw; height:auto;"><img src="Assets/img9.png" style="width:10vw; height:auto;"><img src="Assets/img10.png" style="width:10vw; height:auto;"><img src="Assets/img11.png" style="width:10vw; height:auto;"><img src="Assets/img12.png" style="width:10vw; height:auto;"></div>
 				<div style="border-style:none"><img src="Assets/img13.png" style="width:10vw; height:auto;"><img src="Assets/img14.png" style="width:10vw; height:auto;"><img src="Assets/img15.png" style="width:10vw; height:auto;"><img src="Assets/img16.png" style="width:10vw; height:auto;"><img src="Assets/img17.png" style="width:10vw; height:auto;"></div>
@@ -627,9 +628,9 @@
 				<div style="border-style:none"><img src="Assets/img18.png" style="width:9vw;height:auto;display:revert;"><img src="Assets/img20.png" style="width:9vw;height:auto;padding-bottom: 150px; display:revert;"><img src="Assets/img19.png" style="width:9vw;height:auto;display:revert"></div>
 				<div>Il nome degli abitanti dello straniero non ci viene mai detto in gioco, però abbiamo come candidati: <div style="padding:revert;text-align:-webkit-auto;border-top:none;display: flex;justify-content: center;"><br>1. “GhostBirds” e “Ghosts” nei file di gioco;<br>2. “Pursuers” negli achievements;<br>3. “Elk” nei crediti finali;<br>4. “Barba Cervi” per il caro Cydonia;<br>5. “Gufalci” per Mike of the Desert;</div></div>
 				<div>La voce degli elk è invece stata campionata da vere alci (fonte wiki di outer wilds).</div>
-				<div>Se si esplora un minimo la 2a zona del sogno, seguendo la strada per spegnere le luci, è possibile trovare una casa, bruciata, in bella vista. Al suo interno è presente un quadro rappresentante la <b>Profezia del Prigioniero</b>, una delle aggiunte successive all'uscita del DLC. Con il tempo infatti gli sviluppatori hanno modificato varie aree e micro puzzle per aiutare i giocatori.<br><a href="https://www.youtube.com/watch?v=lox4nqK4Lgs" class="n">The Lore Explorer ci mostra alcuni macro cambiamenti</a>.</div>
+				<div>Se si esplora un minimo la 2a zona del sogno, seguendo la strada per spegnere le luci, è possibile trovare una casa, bruciata, in bella vista. Al suo interno è presente un quadro rappresentante la <b>Profezia del Prigioniero</b>, una delle aggiunte successive all'uscita del DLC. Con il tempo infatti gli sviluppatori hanno modificato varie aree e micro puzzle per aiutare i giocatori.<br><a href="https://www.youtube.com/watch?v=lox4nqK4Lgs" target="_blank" rel="noopener noreferrer" class="n">The Lore Explorer ci mostra alcuni macro cambiamenti</a>.</div>
 				<div style="border-style:none"><img src="Assets/prisoner_profecy.png" style="width:19vw; height:auto;"></div>
-				<div>È possibile accedere ai 3 sigilli del sarcofago molto velocemente. Esistono nel codice di gioco 3 password che permettono rispettivamente di: Mettere il ponte in piano al primo sigillo, Far arrivare la barca per il secondo sigillo, Spegnere la luce al terzo sigillo. Le password sono state trovate con il bruteforce e sono attualmente una parte fondamentale delle speedrun prisoner%.<br><a href="https://www.reddit.com/r/outerwilds/comments/pykqsg/datamined_codes/" class="n">I codici</a><br> permettono tra l’altro di tornare nel mondo reale dopo aver aperto il sarcofago, lasciandoci vedere il cadavere del prigioniero.</div>
+				<div>È possibile accedere ai 3 sigilli del sarcofago molto velocemente. Esistono nel codice di gioco 3 password che permettono rispettivamente di: Mettere il ponte in piano al primo sigillo, Far arrivare la barca per il secondo sigillo, Spegnere la luce al terzo sigillo. Le password sono state trovate con il bruteforce e sono attualmente una parte fondamentale delle speedrun prisoner%.<br><a href="https://www.reddit.com/r/outerwilds/comments/pykqsg/datamined_codes/" target="_blank" rel="noopener noreferrer" class="n">I codici</a><br> permettono tra l’altro di tornare nel mondo reale dopo aver aperto il sarcofago, lasciandoci vedere il cadavere del prigioniero.</div>
 				<div>Esistono ben 2 nuovi finali extra con l’aggiunta del DLC, entrambi ottenuti disattivando l’ATP e aspettando uno dentro lo straniero, e l’altro dentro il sogno.</div>
 				<div>La visione che ci da il prigioniero cambia a seconda di quanto abbiamo scoperto del gioco. Vengono quindi tolte tutte le parti che non conosciamo del gioco.</div>
 				<div>Da alcune slide possiamo immaginarci quanto prima gli elk siano arrivati nel sistema solare rispetto ai nomai: è possibile infatti osservare che gemello cenere con un fiume oltre che al pianeta, ora distrutto dal seme di rovo oscuro, ancora intatto.</div>
@@ -652,7 +653,7 @@
 				<div style="border-style:none"><img src="Assets/Sbeku_matrix.jpg" style="width:18vw; height:auto;"></div>
 				<div>Nei File di gioco le slide di ogni reel sono in negativo, questo è legato al fatto che ogni slide viene proiettata con della luce fisica. Quindi è molto probabile che l’immagine assorba le frequenze della luce e lasci passare il resto (lasciando proiettata l’immagine positiva)(Non abbiamo basi concrete per questa conclusione).</div>
 				<div style="border-style:none"><img src="Assets/pianetaN.png" style="width:20vw; height:auto;"><img src="Assets/pianeta.png" style="width:20vw; height:auto;"></div>
-				<div>Il sole artificiale dello straniero, se lo si riesce a toccare, ti provocherà danni per via della sua temperatura.<br><a href="Assets/sole_art" class="n">Video</a></div>
+				<div>Il sole artificiale dello straniero, se lo si riesce a toccare, ti provocherà danni per via della sua temperatura.<br><a href="Assets/sole_art" target="_blank" rel="noopener noreferrer" class="n">Video</a></div>
 				<div>Da poco, finendo il dlc (con tanto di morte) è stata aggiunta la scritta finale "Echoes of the Eye"</div>
 				<div>Quando si libera il prigioniero e si esce dalla prigione si possono notare le impronte del prigioniero che portano a una visione e di conseguenza al lago. Una persona normale, dopo aver visto la visione, si getterebbe nel lago per onorare l'ultimo desiderio del Prigioniero</div>
 				<div>Alla fine del gioco, a seconda se si è trovato Solanum, o il Prigioniero, e si lancia il Sondino nell'occhio, cambierà l'immagine del nuovo universo.</div>
@@ -665,8 +666,8 @@
 				<div>Il “Flauto Spaziale” di Gabbro che somiglia a un clarinetto prende il suono da una tromba muta. Il sampling è stato fatto similmente ai sampling fatti per il Nintendo 64.<br>(Andrew Prahlow su r/Outer Wilds)</div>
 				<div>Il “concerto” suonato dagli elk nella prima area del sogno è chiamata nei file di gioco “Party House”. (Andrew Prahlow su r/Outer Wilds)</div>
 				<div>La prima canzone mai composta per OW è stata Campfire Song. (Andrew Prahlow su r/Outer Wilds)</div>
-				<div>Il suono dei Marshmallow che vengono mangiati è ottenuto campionando la masticazione di alcuni Cheez-It.<br><a href="https://soundcloud.com/andrewprahlow/ow-marshmalloweat-1-020716-ap/s-7T8OESZUA7k?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" class="n">Suono completo</a><br>è possibile sentire un “mmm” finale non incluso nel gioco. (Andrew Prahlow su r/Outer Wilds)</div>
-				<div>La musica che si sente mentre si è nel “matrix” non è originale del gioco ed appartiene a Scott Buckley.<br><a href="https://www.youtube.com/watch?v=kbTClxgehrQ" class="n">Il brano su youtube</a></div>
+				<div>Il suono dei Marshmallow che vengono mangiati è ottenuto campionando la masticazione di alcuni Cheez-It.<br><a href="https://soundcloud.com/andrewprahlow/ow-marshmalloweat-1-020716-ap/s-7T8OESZUA7k?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener noreferrer" class="n">Suono completo</a><br>è possibile sentire un “mmm” finale non incluso nel gioco. (Andrew Prahlow su r/Outer Wilds)</div>
+				<div>La musica che si sente mentre si è nel “matrix” non è originale del gioco ed appartiene a Scott Buckley.<br><a href="https://www.youtube.com/watch?v=kbTClxgehrQ" target="_blank" rel="noopener noreferrer" class="n">Il brano su youtube</a></div>
 				<div>Alla fine del fiume è possibile ascoltare (stando sulla zattera) un riarrangiamento musicale della Main Theme del gioco. Il nome di questo brano è chiamato River’s End.<br>Sono presenti inoltre parti del theme principale del prigioniero.</div>
 			</div>
 			
@@ -678,14 +679,14 @@
 				<div>I frammenti di Vuoto Fragile possono essere danneggiati anche con lo schianto della nostra nave.</div>
 				<div>Le rane pescatrici perdono l’aggro se mangiano la nostra nave o una sua parte (per esempio usando l’espulsione di emergenza si può scappare nel mentre loro mangiano il retro della nave).</div>
 				<div><b>Incontrando due volte di seguito il nostro clone, avremo nuovi dialoghi.</b></div>
-				<div>È possibile cavalcare il satellite artificiale Teporiano:<br><a href="https://www.reddit.com/r/outerwilds/comments/r90i7h/riding_on_timber_hearths_satellite/" class="n">dimostrazione di dankbouls87</a></div>
+				<div>È possibile cavalcare il satellite artificiale Teporiano:<br><a href="https://www.reddit.com/r/outerwilds/comments/r90i7h/riding_on_timber_hearths_satellite/" target="_blank" rel="noopener noreferrer" class="n">dimostrazione di dankbouls87</a></div>
 				<div>Il satellite teporiano può essere spostato o addirittura lanciato usando la nostra nave.<br>Questo può portare a delle sfide interessanti, come lanciarlo sul sole, nel buco nero o anche sulla superficie della luna quantica.</div>
 				<div style="border-style:none"><img src="Assets/satellite.png" style="width:15vw; height:auto;"></div>
 				<div>Le navette Nomai possiedono un sistema di atterraggio segreto.</div>
 				<div>È possibile vedere il nostro personaggio senza tuta sparando il sondino all’interno della nave, togliendosi la tuta e poi fare foto con la nave.</div>
 				<div style="border-style:none"><img src="Assets/character1.png" style="width:15vw; height:auto;"><img src="Assets/character2.png" style="width:15vw; height:auto;"><img src="Assets/character3.png" style="width:15vw; height:auto;"></div>
-				<div>È possibile, usando il sondino quando ci si trova nella sesto luogo ed uscire poi dalla luna, volare fino al sesto luogo.<br><a href="https://youtu.be/7rV_ON2Kcfw" class="n">Procedimento spiegato da Kaylee</a></div>
-				<div>In origine, il segnaloscopio avrebbe dovuto captare molti tipi di segnali. Tra questi ci sarebbero dovuti essere: Le statue con gli occhi aperti, i warp core con il buco bianco e i 4 templi del DLC (ogni tempio con un suono differente).<br><a href="https://outerwildsmods.com/mods/signals/" class="n">Mod Signals+</a></div>
+				<div>È possibile, usando il sondino quando ci si trova nella sesto luogo ed uscire poi dalla luna, volare fino al sesto luogo.<br><a href="https://youtu.be/7rV_ON2Kcfw" target="_blank" rel="noopener noreferrer" class="n">Procedimento spiegato da Kaylee</a></div>
+				<div>In origine, il segnaloscopio avrebbe dovuto captare molti tipi di segnali. Tra questi ci sarebbero dovuti essere: Le statue con gli occhi aperti, i warp core con il buco bianco e i 4 templi del DLC (ogni tempio con un suono differente).<br><a href="https://outerwildsmods.com/mods/signals/" target="_blank" rel="noopener noreferrer" class="n">Mod Signals+</a></div>
 				<div>Con gli ultimi aggiornamenti, quando si inseriscono le coordinate per l'occhio dell'universo, non è più necessario memorizzarsi i codici perchè appariranno nell'hud.</div>
 				<div>Se si muore in modo permanente (morendo prima di attivare la statua, dopo aver disattivato l’ATP o rompendo lo spazio tempo) il gioco non dirà “Continua spedizione” ma “Carica salvataggio precedente” a conferma che non esiste più un loop.</div>
 			</div>
@@ -735,7 +736,7 @@
 			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ww12q6HsmJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<br><br>
-			<div style="padding: 30px;border-top: solid;border-bottom: solid;border-color: gold;"><a href="Assets/OWtesi.pdf" style="text-decoration:underline;">Tesi Universitaria dell'ideatore e creatore di Outer Wilds</a></div>
+			<div style="padding: 30px;border-top: solid;border-bottom: solid;border-color: gold;"><a href="Assets/OWtesi.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;">Tesi Universitaria dell'ideatore e creatore di Outer Wilds</a></div>
 			
 		</div>
 		<div class="page" data-page="5">
@@ -752,8 +753,8 @@
 			<span class="fade7"><b>Storyboard:</b> Exodd<br></span>
 			<span class="fade2"><b>Soundtrack:</b> <a href=https://www.twitch.tv/stereonauti class="ref" style="color:var(--color2);">Stereonauti</a><br></span>
 			<span class="fade11"><b>Main Menu Theme:</b><br>Stereonauti<br>Eleirbag Idlanir<br></span>
-			<span class="fade4"><b>Artwork & Design:</b> <a href="https://google.com" class="ref" style="color:var(--color1);">Nocturna Draco</a><br></span>
-			<span class="fade5"><b>Documentarist & WebSiteDev:</b> Lorenzo Tilli aka <a href="https://steamcommunity.com/profiles/76561198095885367/" class="ref" style="color:var(--color3);">LaXis315</a><br></span>
+			<span class="fade4"><b>Artwork & Design:</b> <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="ref" style="color:var(--color1);">Nocturna Draco</a><br></span>
+			<span class="fade5"><b>Documentarist & WebSiteDev:</b> Lorenzo Tilli aka <a href="https://steamcommunity.com/profiles/76561198095885367/" target="_blank" rel="noopener noreferrer" class="ref" style="color:var(--color3);">LaXis315</a><br></span>
 			<span class="fade8"><b>Writers:</b><br>Gabriele "gpexio" Pecchioni<br>Speedy Cheddar<br>Lorenzo Giuliani<br>Klezzon<br></span>
 			<span class="fade9"><b>3D Modeling & Video Editing:</b> Giuseppe "LaStringa" Corsino<br></span>
 			<span class="fade10"><b>Video Capture:</b><br>Speedy Cheddar<br>Gabriele "gpexio" Pecchioni<br></span>
